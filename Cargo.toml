@@ -1,0 +1,12 @@
+[package]
+name = "headless"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.12.1"
+pollster = "0.3.0"
+wgpu = "0.17.1"
+futures-intrusive = { version = "0.5.0" }
