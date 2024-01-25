@@ -99,7 +99,7 @@ mod frame_capture {
                 let cpu_buffer = render_device.create_buffer(&BufferDescriptor {
                     label: None,
                     size: padded_bytes_per_row as u64 * size.height as u64,
-                    usage: BufferUsages::MAP_READ | BufferUsages::COPY_DST,
+                    usage:  BufferUsages::MAP_READ | BufferUsages::COPY_DST,
                     mapped_at_creation: false,
                 });
 
